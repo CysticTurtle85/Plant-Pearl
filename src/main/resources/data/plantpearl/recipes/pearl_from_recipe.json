@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "material",
+  "ingredients": [
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:oak_sapling"
+    }
+  ],
+  "result": {
+    "item": "plantpearl:plant_pearl"
+  }
+}
