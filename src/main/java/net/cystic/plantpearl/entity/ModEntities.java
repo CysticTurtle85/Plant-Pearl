@@ -11,8 +11,6 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-import javax.swing.text.html.parser.Entity;
-
 public class ModEntities {
     public static final EntityType<PlantPearlEntity> PlantPearlEntityType = Registry.register(
             Registries.ENTITY_TYPE,
