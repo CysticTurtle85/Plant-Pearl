@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Plant Pearl",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Simple mod that adds Plant Pearls and Plant Pearl Blocks",
   "authors": [
     "CysticTurtle85"
   ],
