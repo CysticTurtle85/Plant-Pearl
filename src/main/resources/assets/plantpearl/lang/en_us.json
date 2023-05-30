@@ -1,5 +1,6 @@
 {
   "item.plantpearl.plant_pearl": "Plant Pearl",
-  "itemgroup.plant_pearl": "Plant Pearl Item Group",
-  "block.plantpearl.plant_pearl_block": "Plant Pearl Block"
+  "itemgroup.plant_pearl": "Plant Pearl",
+  "block.plantpearl.plant_pearl_block": "Plant Pearl Block",
+  "entity.plantpearl.plant_pearl": "Plant Pearl"
 }
