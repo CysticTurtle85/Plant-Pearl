@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item PLANT_PEARL = registerItem("plant_pearl",
-            new net.cystic.plantpearl.item.PlantPearl(new FabricItemSettings().maxCount(16)));
+            new PlantPearlItem(new FabricItemSettings().maxCount(16)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(PlantPearl.MOD_ID, name), item);

@@ -5,7 +5,6 @@ import net.cystic.plantpearl.entity.ModEntities;
 import net.cystic.plantpearl.item.ModItemGroup;
 import net.cystic.plantpearl.item.ModItems;
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.item.ItemGroup;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

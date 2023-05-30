@@ -13,9 +13,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 
-public class PlantPearl extends Item {
+public class PlantPearlItem extends Item {
 
-    public PlantPearl(Settings settings) {
+    public PlantPearlItem(Settings settings) {
         super(settings);
     }
 
