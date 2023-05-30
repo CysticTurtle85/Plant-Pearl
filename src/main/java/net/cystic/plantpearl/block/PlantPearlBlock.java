@@ -32,11 +32,12 @@ public class PlantPearlBlock extends Block {
             int treeNum = 15;
             for (int i = 0; i < treeNum; i++) {
                 BlockPos randomPos = pos.add(new Vec3i(random.nextBetween(-15, 15), world.getHeight() - pos.getY(), random.nextBetween(-15, 15)));
-
-                for (int y = world.getHeight(); y > 0; y--) {
+                float startTime = world.getTime();
+                for (int y = world.getHeight(); y > world.getBottomY(); y--) {
                     randomPos = randomPos.down();
                     if (world.getBlockState(randomPos).isIn(BlockTags.DIRT) || world.getBlockState(randomPos).isIn(BlockTags.SAND) || world.getBlockState(randomPos).isOf(Blocks.SNOW_BLOCK) || world.getBlockState(randomPos).isOf(Blocks.GRASS_BLOCK)) { // blocks that trees can be placed on
                         if (world.getBlockState(randomPos.up()).isOf(Blocks.AIR) || world.getBlockState(randomPos.up()).isOf(Blocks.GRASS) || world.getBlockState(randomPos.up()).isOf(Blocks.SNOW)) { // blocks that trees can replace
+
                             PlantPearlItem.generateTree(state, saplingGenerator, world, randomPos.up(), random);
                         }
                     }
@@ -45,8 +46,6 @@ public class PlantPearlBlock extends Block {
         }
         return ActionResult.SUCCESS;
     }
-
-
 
 
 }
