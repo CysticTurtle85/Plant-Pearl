@@ -1,6 +1,7 @@
 package net.cystic.plantpearl;
 
 import net.cystic.plantpearl.block.ModBlocks;
+import net.cystic.plantpearl.entity.ModEntities;
 import net.cystic.plantpearl.item.ModItemGroup;
 import net.cystic.plantpearl.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -17,5 +18,6 @@ public class PlantPearl implements ModInitializer {
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModEntities.registerModEntities();
 	}
 }
