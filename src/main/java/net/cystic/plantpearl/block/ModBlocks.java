@@ -18,7 +18,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block PLANT_PEARL_BLOCK = registerBlock("plant_pearl_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(0.2f)), ModItemGroup.PLANT_PEARL);
+            new PlantPearlBlock(FabricBlockSettings.of(Material.METAL).strength(0.2f)), ModItemGroup.PLANT_PEARL);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
